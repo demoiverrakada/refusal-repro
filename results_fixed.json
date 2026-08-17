@@ -1,0 +1,14 @@
+{
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "n_layers": 24,
+  "best_layer": 11,
+  "alpha": 8.0,
+  "n_eval": 24,
+  "metrics": {
+    "baseline_refusal_on_harmful": 0.8333333333333334,
+    "baseline_refusal_on_harmless": 0.041666666666666664,
+    "ablated_refusal_on_harmful": 0.08333333333333333,
+    "induced_refusal_on_harmless": 0.9583333333333334
+  },
+  "attack_success_rate_drop": 0.75
+}
